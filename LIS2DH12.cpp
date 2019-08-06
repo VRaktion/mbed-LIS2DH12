@@ -8,7 +8,7 @@
  */
 
 #include "LIS2DH12.h"
-#include "LIS2DH12_regs.h"
+#include "LIS2DH12reg.h"
 
 LIS2DH12::LIS2DH12(I2C *i2c_, char i2c_address) : i2c(i2c_),
                                               spiInterface(false),
